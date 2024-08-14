@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "autoname": "field:user",
+ "creation": "2020-10-08 13:09:36.034430",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "log_setting_user_od",
+  "log_setting_user_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "User",
+   "options": "User",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "log_setting_user_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Log Setting User OD"
+  },
+  {
+   "fieldname": "log_setting_user_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Log Setting User HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:32.043807",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Log Setting User",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

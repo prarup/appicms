@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-02-28 13:06:07.915452",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "family_lives_in",
+  "is_active",
+  "seq_id",
+  "lives_in_od",
+  "lives_in_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "family_lives_in",
+   "fieldtype": "Data",
+   "label": "family lives in"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "seq_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Seq.ID"
+  },
+  {
+   "fieldname": "lives_in_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Lives in OD"
+  },
+  {
+   "fieldname": "lives_in_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Lives in HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:13:43.250790",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Lives in",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "family_lives_in",
+ "translated_doctype": 1,
+ "updatefield": 1
+}

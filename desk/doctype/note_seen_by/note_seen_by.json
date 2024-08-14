@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "creation": "2016-08-29 05:29:16.726172",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "note_seen_by_od",
+  "note_seen_by_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "User",
+   "options": "User",
+   "permlevel": 2
+  },
+  {
+   "fieldname": "note_seen_by_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Note Seen By OD"
+  },
+  {
+   "fieldname": "note_seen_by_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Note Seen By HI"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:08.204000",
+ "modified_by": "Administrator",
+ "module": "Desk",
+ "name": "Note Seen By",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "updatefield": 1
+}

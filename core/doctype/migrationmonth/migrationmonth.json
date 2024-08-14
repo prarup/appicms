@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-02-19 15:21:02.896198",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "detail",
+  "migrationmonth_od",
+  "migrationmonth_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "detail",
+   "fieldtype": "Data",
+   "label": "detail"
+  },
+  {
+   "fieldname": "migrationmonth_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "MigrationMonth OD"
+  },
+  {
+   "fieldname": "migrationmonth_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "MigrationMonth HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:13:39.478800",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "MigrationMonth",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "detail",
+ "translated_doctype": 1,
+ "updatefield": 1
+}

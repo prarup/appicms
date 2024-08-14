@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "creation": "2019-07-17 16:21:33.546379",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ref_doctype",
+  "session_default_od",
+  "session_default_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "ref_doctype",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Document Type",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "session_default_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Session Default OD"
+  },
+  {
+   "fieldname": "session_default_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Session Default HI"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:40.082459",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Session Default",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

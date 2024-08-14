@@ -1,0 +1,37 @@
+# Copyright (c) 2024, Frappe Technologies and contributors
+# For license information, please see license.txt
+
+# import frappe
+from frappe.model.document import Document
+
+
+class CrecheCheckIn(Document):
+	# begin: auto-generated types
+	# This code is auto-generated. Do not modify anything in this block.
+
+	from typing import TYPE_CHECKING
+
+	if TYPE_CHECKING:
+		from frappe.types import DF
+
+		app_created_by: DF.Data | None
+		app_created_on: DF.Datetime | None
+		block_id: DF.Link
+		ccinguid: DF.Data | None
+		checkin_location: DF.Data | None
+		creche_id: DF.Link
+		date_of_checkin: DF.Date
+		district_id: DF.Link
+		gp_id: DF.Link
+		latitude: DF.Data
+		longitude: DF.Data
+		name: DF.Int | None
+		partner_id: DF.Link
+		picture: DF.AttachImage | None
+		remarks: DF.Data | None
+		state_id: DF.Link
+		supervisor_id: DF.Link | None
+		village_id: DF.Link
+	# end: auto-generated types
+
+	pass

@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "creation": "2019-09-03 16:08:21.333698",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "allowed_in_global_search",
+  "global_search_settings_od",
+  "global_search_settings_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "allowed_in_global_search",
+   "fieldtype": "Table",
+   "label": "Search Priorities",
+   "options": "Global Search DocType"
+  },
+  {
+   "fieldname": "global_search_settings_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Global Search Settings OD"
+  },
+  {
+   "fieldname": "global_search_settings_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Global Search Settings HI"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:38.476000",
+ "modified_by": "Administrator",
+ "module": "Desk",
+ "name": "Global Search Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

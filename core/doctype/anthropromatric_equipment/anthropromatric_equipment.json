@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-05-19 21:33:24.243707",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "add_equipment",
+  "anthropromatric_equipment_od",
+  "anthropromatric_equipment_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "add_equipment",
+   "fieldtype": "Data",
+   "label": "Add Equipment"
+  },
+  {
+   "fieldname": "anthropromatric_equipment_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Anthropromatric equipment OD"
+  },
+  {
+   "fieldname": "anthropromatric_equipment_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Anthropromatric equipment HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:13:49.829109",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Anthropromatric equipment",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "add_equipment",
+ "updatefield": 1
+}

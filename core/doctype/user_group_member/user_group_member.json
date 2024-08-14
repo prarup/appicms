@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "creation": "2021-04-12 15:16:29.279107",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "user_group_member_od",
+  "user_group_member_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "User",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "user_group_member_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "User Group Member OD"
+  },
+  {
+   "fieldname": "user_group_member_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "User Group Member HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:29.887999",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "User Group Member",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

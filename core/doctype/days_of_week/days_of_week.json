@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-03-13 17:50:22.561688",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "day_name",
+  "is_active",
+  "seq_id",
+  "days_of_week_od",
+  "days_of_week_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "day_name",
+   "fieldtype": "Data",
+   "label": "Day Name"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "seq_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Seq.ID"
+  },
+  {
+   "fieldname": "days_of_week_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Days Of Week OD"
+  },
+  {
+   "fieldname": "days_of_week_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Days Of Week HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:14:26.953199",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Days Of Week",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "APPI Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Partner Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "day_name",
+ "updatefield": 1
+}

@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "creation": "2020-11-16 16:03:43.771801",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "label",
+  "fieldname",
+  "doctype_layout_field_od",
+  "doctype_layout_field_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "fieldname",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Fieldname",
+   "reqd": 1
+  },
+  {
+   "fieldname": "label",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Label"
+  },
+  {
+   "fieldname": "doctype_layout_field_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "DocType Layout Field OD"
+  },
+  {
+   "fieldname": "doctype_layout_field_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "DocType Layout Field HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:29.118062",
+ "modified_by": "Administrator",
+ "module": "Custom",
+ "name": "DocType Layout Field",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

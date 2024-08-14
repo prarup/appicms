@@ -1,0 +1,282 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-07-31 12:54:03.541453",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "creche_geography_tab",
+  "partner_id",
+  "state_id",
+  "district_id",
+  "block_id",
+  "gp_id",
+  "village_id",
+  "child_enrollment_tab",
+  "creche_id",
+  "child_id",
+  "child_name",
+  "date_of_enrollment",
+  "child_dob",
+  "age_at_enrollment_in_months",
+  "height",
+  "weight",
+  "child_exit_section",
+  "date_of_exit",
+  "age_of_exit",
+  "reason_for_exit",
+  "other_reason",
+  "is_child_enrolled_awc",
+  "date_of_enrollment_awc",
+  "hidden_tab",
+  "appcreated_by",
+  "appcreated_on",
+  "app_updated_by",
+  "app_updated_on",
+  "is_active",
+  "is_exited",
+  "childenrollguid",
+  "hhguid",
+  "hhcguid",
+  "gender_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "partner_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Partner",
+   "options": "Partner",
+   "reqd": 1
+  },
+  {
+   "fieldname": "state_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "State",
+   "options": "State",
+   "reqd": 1
+  },
+  {
+   "fieldname": "district_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "District",
+   "options": "District",
+   "reqd": 1
+  },
+  {
+   "fieldname": "block_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Block",
+   "options": "Block",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gp_id",
+   "fieldtype": "Link",
+   "label": "Gram Panchayat",
+   "options": "Gram Panchayat",
+   "reqd": 1
+  },
+  {
+   "fieldname": "village_id",
+   "fieldtype": "Link",
+   "label": "Village",
+   "options": "Village",
+   "reqd": 1
+  },
+  {
+   "fieldname": "creche_geography_tab",
+   "fieldtype": "Tab Break",
+   "label": "Creche Geography"
+  },
+  {
+   "fieldname": "child_enrollment_tab",
+   "fieldtype": "Tab Break",
+   "label": "Child Enrollment"
+  },
+  {
+   "fieldname": "creche_id",
+   "fieldtype": "Link",
+   "label": "Creche Name",
+   "options": "Creche",
+   "reqd": 1
+  },
+  {
+   "fieldname": "child_id",
+   "fieldtype": "Data",
+   "label": "Child ID"
+  },
+  {
+   "fieldname": "date_of_enrollment",
+   "fieldtype": "Date",
+   "label": "Date of Enrollment",
+   "reqd": 1
+  },
+  {
+   "fieldname": "child_dob",
+   "fieldtype": "Date",
+   "label": "Date of Birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age_at_enrollment_in_months",
+   "fieldtype": "Int",
+   "label": "Age at Enrollment (in months)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Float",
+   "label": "Height (in cm)",
+   "precision": "1"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight (in kg)",
+   "precision": "1"
+  },
+  {
+   "fieldname": "child_exit_section",
+   "fieldtype": "Section Break",
+   "label": "Child Exit "
+  },
+  {
+   "fieldname": "date_of_exit",
+   "fieldtype": "Date",
+   "label": "Date of Exit"
+  },
+  {
+   "fieldname": "age_of_exit",
+   "fieldtype": "Int",
+   "label": "Age at Exit (In months)"
+  },
+  {
+   "fieldname": "reason_for_exit",
+   "fieldtype": "Link",
+   "label": "Reason for Exit",
+   "options": "Reason for child exit"
+  },
+  {
+   "fieldname": "hidden_tab",
+   "fieldtype": "Tab Break",
+   "hidden": 1,
+   "label": "Hidden"
+  },
+  {
+   "fieldname": "appcreated_by",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "App created by"
+  },
+  {
+   "fieldname": "appcreated_on",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "App created on"
+  },
+  {
+   "fieldname": "app_updated_by",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "App updated by"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "is_active"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_exited",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "is_exited"
+  },
+  {
+   "fieldname": "childenrollguid",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "childenrollguid"
+  },
+  {
+   "fieldname": "child_name",
+   "fieldtype": "Data",
+   "label": "Child Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "app_updated_on",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "App updated on"
+  },
+  {
+   "fieldname": "other_reason",
+   "fieldtype": "Data",
+   "label": "Other"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_child_enrolled_awc",
+   "fieldtype": "Check",
+   "label": "Is the child enrolled in AWC after 3 years for preschool?"
+  },
+  {
+   "fieldname": "date_of_enrollment_awc",
+   "fieldtype": "Date",
+   "label": "Date of Enrollment in AWC"
+  },
+  {
+   "fieldname": "hhguid",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "HHGUID"
+  },
+  {
+   "fieldname": "hhcguid",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "HHCGUID"
+  },
+  {
+   "fieldname": "gender_id",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Gender",
+   "options": "Gender"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_appi": 1,
+ "links": [],
+ "modified": "2024-08-06 16:43:19.369652",
+ "modified_by": "Administrator",
+ "module": "APF",
+ "name": "Child Enrollment and Exit",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "updatefield": 1
+}

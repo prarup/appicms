@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "creation": "2019-10-09 15:04:39.504787",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document",
+  "notification_subscribed_document_od",
+  "notification_subscribed_document_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "document",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Document",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "fieldname": "notification_subscribed_document_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Notification Subscribed Document OD"
+  },
+  {
+   "fieldname": "notification_subscribed_document_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Notification Subscribed Document HI"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:38.785944",
+ "modified_by": "Administrator",
+ "module": "Desk",
+ "name": "Notification Subscribed Document",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

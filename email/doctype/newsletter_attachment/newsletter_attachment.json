@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-12-06 16:37:40.652468",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "attachment",
+  "newsletter_attachment_od",
+  "newsletter_attachment_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment",
+   "reqd": 1
+  },
+  {
+   "fieldname": "newsletter_attachment_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Newsletter Attachment OD"
+  },
+  {
+   "fieldname": "newsletter_attachment_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Newsletter Attachment HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:25.889670",
+ "modified_by": "Administrator",
+ "module": "Email",
+ "name": "Newsletter Attachment",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "updatefield": 1
+}

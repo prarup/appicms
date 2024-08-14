@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-07-06 13:09:05.230632",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "visit_purpose_child_table",
+  "visit_purpose_child_table_od",
+  "visit_purpose_child_table_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "visit_purpose_child_table",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Visit Purpose",
+   "options": "Visit Purpose"
+  },
+  {
+   "fieldname": "visit_purpose_child_table_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Visit Purpose child table OD"
+  },
+  {
+   "fieldname": "visit_purpose_child_table_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Visit Purpose child table HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_appi": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:13:31.195795",
+ "modified_by": "Administrator",
+ "module": "APF",
+ "name": "Visit Purpose child table",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "updatefield": 1
+}

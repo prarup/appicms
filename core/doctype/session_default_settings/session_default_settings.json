@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "creation": "2019-07-17 16:22:31.300991",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "session_defaults",
+  "session_default_settings_od",
+  "session_default_settings_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "session_defaults",
+   "fieldtype": "Table",
+   "label": "Session Defaults",
+   "options": "Session Default"
+  },
+  {
+   "fieldname": "session_default_settings_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Session Default Settings OD"
+  },
+  {
+   "fieldname": "session_default_settings_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Session Default Settings HI"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:40.333965",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Session Default Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

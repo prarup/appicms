@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-05-27 12:13:43.374431",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "treatment_detail",
+  "treatment_details_od",
+  "treatment_details_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "treatment_detail",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Add Treatment Detail"
+  },
+  {
+   "fieldname": "treatment_details_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Treatment details OD"
+  },
+  {
+   "fieldname": "treatment_details_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Treatment details HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:14:28.029671",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Treatment details",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "treatment_detail",
+ "updatefield": 1
+}

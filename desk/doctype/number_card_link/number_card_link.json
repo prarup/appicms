@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "creation": "2020-04-19 17:43:50.858343",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "card",
+  "number_card_link_od",
+  "number_card_link_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "card",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Card",
+   "options": "Number Card"
+  },
+  {
+   "fieldname": "number_card_link_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Number Card Link OD"
+  },
+  {
+   "fieldname": "number_card_link_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Number Card Link HI"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:36.415442",
+ "modified_by": "Administrator",
+ "module": "Desk",
+ "name": "Number Card Link",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

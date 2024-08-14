@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "creation": "2015-03-24 14:28:15.882903",
+ "doctype": "DocType",
+ "document_type": "Other",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "module",
+  "block_module_od",
+  "block_module_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "module",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Module",
+   "reqd": 1
+  },
+  {
+   "fieldname": "block_module_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Block Module OD"
+  },
+  {
+   "fieldname": "block_module_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Block Module HI"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:13:23.438219",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Block Module",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "updatefield": 1
+}

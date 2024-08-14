@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "creation": "2020-04-30 07:39:33.095554",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "social_link_type",
+  "color",
+  "background_color",
+  "social_link_settings_od",
+  "social_link_settings_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "social_link_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Social Link Type",
+   "options": "\nfacebook\nlinkedin\ntwitter\nemail"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "in_list_view": 1,
+   "label": "Color"
+  },
+  {
+   "fieldname": "background_color",
+   "fieldtype": "Color",
+   "in_list_view": 1,
+   "label": "Background Color"
+  },
+  {
+   "fieldname": "social_link_settings_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Social Link Settings OD"
+  },
+  {
+   "fieldname": "social_link_settings_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Social Link Settings HI"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:35.597568",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "Social Link Settings",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "updatefield": 1
+}

@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Package Import at {creation}",
+ "creation": "2021-09-05 16:36:46.680094",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "attach_package",
+  "activate",
+  "force",
+  "log",
+  "package_import_od",
+  "package_import_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "attach_package",
+   "fieldtype": "Attach",
+   "label": "Attach Package"
+  },
+  {
+   "default": "0",
+   "fieldname": "activate",
+   "fieldtype": "Check",
+   "label": "Activate"
+  },
+  {
+   "fieldname": "log",
+   "fieldtype": "Code",
+   "label": "Log",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "force",
+   "fieldtype": "Check",
+   "label": "Force"
+  },
+  {
+   "fieldname": "package_import_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Package Import OD"
+  },
+  {
+   "fieldname": "package_import_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Package Import HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:27.705080",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Package Import",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

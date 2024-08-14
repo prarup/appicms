@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-05-31 18:00:31.587325",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "treatment_select",
+  "treatment_child_table_od",
+  "treatment_child_table_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "treatment_select",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Treatment select ",
+   "options": "Treatment details"
+  },
+  {
+   "fieldname": "treatment_child_table_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Treatment child table OD"
+  },
+  {
+   "fieldname": "treatment_child_table_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Treatment child table HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:14:28.700619",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Treatment child table",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "updatefield": 1
+}

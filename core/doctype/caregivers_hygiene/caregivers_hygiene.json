@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-05-18 16:15:41.397661",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "add_hygiene",
+  "caregivers_hygiene_od",
+  "caregivers_hygiene_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "add_hygiene",
+   "fieldtype": "Data",
+   "label": "Add Hygiene"
+  },
+  {
+   "fieldname": "caregivers_hygiene_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Caregivers Hygiene OD"
+  },
+  {
+   "fieldname": "caregivers_hygiene_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Caregivers Hygiene HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:13:48.067845",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Caregivers Hygiene",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "add_hygiene",
+ "updatefield": 1
+}

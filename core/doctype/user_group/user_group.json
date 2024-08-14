@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "autoname": "Prompt",
+ "creation": "2021-04-12 15:17:24.751710",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user_group_members",
+  "user_group_od",
+  "user_group_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_group_members",
+   "fieldtype": "Table MultiSelect",
+   "label": "User Group Members",
+   "options": "User Group Member",
+   "reqd": 1
+  },
+  {
+   "fieldname": "user_group_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "User Group OD"
+  },
+  {
+   "fieldname": "user_group_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "User Group HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:01.368057",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "User Group",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Desk User"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

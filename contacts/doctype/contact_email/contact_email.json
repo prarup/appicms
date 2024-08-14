@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "creation": "2019-08-02 13:08:59.291097",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "email_id",
+  "is_primary",
+  "contact_email_od",
+  "contact_email_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email ID",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "default": "0",
+   "fieldname": "is_primary",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Primary"
+  },
+  {
+   "fieldname": "contact_email_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Contact Email OD"
+  },
+  {
+   "fieldname": "contact_email_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Contact Email HI"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:39.387463",
+ "modified_by": "Administrator",
+ "module": "Contacts",
+ "name": "Contact Email",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

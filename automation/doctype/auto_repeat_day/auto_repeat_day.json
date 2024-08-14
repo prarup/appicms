@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "creation": "2020-11-10 22:30:53.690228",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "day",
+  "auto_repeat_day_od",
+  "auto_repeat_day_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "day",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Day",
+   "options": "Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday",
+   "reqd": 1
+  },
+  {
+   "fieldname": "auto_repeat_day_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Auto Repeat Day OD"
+  },
+  {
+   "fieldname": "auto_repeat_day_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Auto Repeat Day HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:31.227956",
+ "modified_by": "Administrator",
+ "module": "Automation",
+ "name": "Auto Repeat Day",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

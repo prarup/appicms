@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "creation": "2021-01-24 03:05:24.634719",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "module",
+  "user_type_module_od",
+  "user_type_module_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "module",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Module",
+   "options": "Module Def",
+   "reqd": 1
+  },
+  {
+   "fieldname": "user_type_module_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "User Type Module OD"
+  },
+  {
+   "fieldname": "user_type_module_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "User Type Module HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:30.525562",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "User Type Module",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

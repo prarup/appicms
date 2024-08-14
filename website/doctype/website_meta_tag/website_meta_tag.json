@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "creation": "2019-02-13 23:39:12.802543",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "key",
+  "value",
+  "website_meta_tag_od",
+  "website_meta_tag_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "key",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Key",
+   "reqd": 1
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Value",
+   "reqd": 1
+  },
+  {
+   "fieldname": "website_meta_tag_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Website Meta Tag OD"
+  },
+  {
+   "fieldname": "website_meta_tag_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Website Meta Tag HI"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:18.968374",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "Website Meta Tag",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

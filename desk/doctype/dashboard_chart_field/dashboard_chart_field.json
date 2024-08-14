@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "creation": "2020-02-28 11:40:27.017380",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "y_field",
+  "color",
+  "dashboard_chart_field_od",
+  "dashboard_chart_field_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "y_field",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Y Field"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "in_list_view": 1,
+   "label": "Color"
+  },
+  {
+   "fieldname": "dashboard_chart_field_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Dashboard Chart Field OD"
+  },
+  {
+   "fieldname": "dashboard_chart_field_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Dashboard Chart Field HI"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:37.425423",
+ "modified_by": "Administrator",
+ "module": "Desk",
+ "name": "Dashboard Chart Field",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

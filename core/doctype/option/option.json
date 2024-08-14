@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-02-28 13:05:42.354396",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "option",
+  "option_od",
+  "option_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "option",
+   "fieldtype": "Data",
+   "label": "Option"
+  },
+  {
+   "fieldname": "option_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Option OD"
+  },
+  {
+   "fieldname": "option_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Option HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:13:40.452824",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Option",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "option",
+ "translated_doctype": 1,
+ "updatefield": 1
+}

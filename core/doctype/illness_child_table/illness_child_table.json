@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-05-30 14:06:38.250561",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "illness",
+  "illness_child_table_od",
+  "illness_child_table_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "illness",
+   "fieldtype": "Link",
+   "label": "Illness",
+   "options": "Illness"
+  },
+  {
+   "fieldname": "illness_child_table_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Illness child table OD"
+  },
+  {
+   "fieldname": "illness_child_table_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Illness child table HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:14:27.843577",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Illness child table",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "updatefield": 1
+}

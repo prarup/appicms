@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "creation": "2020-05-11 17:44:54.674657",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "app_name",
+  "app_version",
+  "git_branch",
+  "installed_application_od",
+  "installed_application_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "git_branch",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Git Branch",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "app_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Application Name",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "app_version",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Application Version",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "installed_application_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Installed Application OD"
+  },
+  {
+   "fieldname": "installed_application_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Installed Application HI"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:35.086704",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Installed Application",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

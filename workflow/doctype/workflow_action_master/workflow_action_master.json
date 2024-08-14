@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:workflow_action_name",
+ "creation": "2012-12-28 10:49:56",
+ "description": "Workflow Action Master",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "workflow_action_name",
+  "workflow_action_master_od",
+  "workflow_action_master_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "workflow_action_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Workflow Action Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "workflow_action_master_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Workflow Action Master OD"
+  },
+  {
+   "fieldname": "workflow_action_master_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Workflow Action Master HI"
+  }
+ ],
+ "icon": "fa fa-flag",
+ "idx": 1,
+ "links": [],
+ "modified": "2024-07-19 16:15:08.467872",
+ "modified_by": "Administrator",
+ "module": "Workflow",
+ "name": "Workflow Action Master",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

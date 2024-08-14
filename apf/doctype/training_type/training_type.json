@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-07-10 15:09:33.359987",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "training_type",
+  "is_active",
+  "training_type_od",
+  "training_type_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "training_type",
+   "fieldtype": "Data",
+   "label": "Training Type"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "training_type_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Training Type OD"
+  },
+  {
+   "fieldname": "training_type_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Training Type HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:13:34.980576",
+ "modified_by": "Administrator",
+ "module": "APF",
+ "name": "Training Type",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "training_type",
+ "updatefield": 1
+}

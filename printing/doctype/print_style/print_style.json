@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:print_style_name",
+ "creation": "2017-08-17 01:25:56.910716",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "print_style_name",
+  "disabled",
+  "standard",
+  "css",
+  "preview",
+  "print_style_od",
+  "print_style_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "print_style_name",
+   "fieldtype": "Data",
+   "label": "Print Style Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Disabled"
+  },
+  {
+   "default": "0",
+   "fieldname": "standard",
+   "fieldtype": "Check",
+   "label": "Standard"
+  },
+  {
+   "fieldname": "css",
+   "fieldtype": "Code",
+   "label": "CSS",
+   "reqd": 1
+  },
+  {
+   "fieldname": "preview",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Preview"
+  },
+  {
+   "fieldname": "print_style_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Print Style OD"
+  },
+  {
+   "fieldname": "print_style_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Print Style HI"
+  }
+ ],
+ "image_field": "preview",
+ "links": [],
+ "modified": "2024-07-19 16:15:15.925291",
+ "modified_by": "Administrator",
+ "module": "Printing",
+ "name": "Print Style",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

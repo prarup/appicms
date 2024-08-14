@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-08-12 12:12:19.804041",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "stock",
+  "seq_id",
+  "is_active",
+  "master_stock_hi",
+  "master_stock_od"
+ ],
+ "fields": [
+  {
+   "fieldname": "stock",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Item",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "master_stock_hi",
+   "fieldtype": "Data",
+   "label": "Item HI"
+  },
+  {
+   "fieldname": "master_stock_od",
+   "fieldtype": "Data",
+   "label": "Item OD"
+  },
+  {
+   "fieldname": "seq_id",
+   "fieldtype": "Int",
+   "label": "Seq.ID"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-13 11:35:49.298810",
+ "modified_by": "Administrator",
+ "module": "APF",
+ "name": "Master Stock",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "stock"
+}

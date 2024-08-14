@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-07-06 16:29:31.827701",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "type_of_creche_house",
+  "is_active",
+  "seq_id",
+  "type_of_creche_house_od",
+  "type_of_creche_house_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "type_of_creche_house",
+   "fieldtype": "Data",
+   "label": "Type of Creche house"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "seq_id",
+   "fieldtype": "Int",
+   "label": "Seq.ID"
+  },
+  {
+   "fieldname": "type_of_creche_house_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Type of creche house OD"
+  },
+  {
+   "fieldname": "type_of_creche_house_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Type of creche house HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:13:38.452445",
+ "modified_by": "Administrator",
+ "module": "APF",
+ "name": "Type of creche house",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "type_of_creche_house",
+ "updatefield": 1
+}

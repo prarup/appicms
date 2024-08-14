@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-07-06 14:58:30.163330",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "add_priority",
+  "is_active",
+  "seq_id",
+  "priority_od",
+  "priority_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "add_priority",
+   "fieldtype": "Data",
+   "label": "Add Priority"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "seq_id",
+   "fieldtype": "Int",
+   "label": "Seq.ID"
+  },
+  {
+   "fieldname": "priority_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Priority OD"
+  },
+  {
+   "fieldname": "priority_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Priority HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:13:36.807898",
+ "modified_by": "Administrator",
+ "module": "APF",
+ "name": "Priority",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "add_priority",
+ "updatefield": 1
+}

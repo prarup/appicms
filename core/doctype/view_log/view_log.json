@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "creation": "2018-05-27 02:20:11.193944",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "viewed_by",
+  "reference_doctype",
+  "reference_name",
+  "view_log_od",
+  "view_log_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "viewed_by",
+   "fieldtype": "Data",
+   "label": "Viewed By",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "reference_doctype",
+   "fieldtype": "Link",
+   "label": "Reference Document Type",
+   "options": "DocType",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "reference_name",
+   "fieldtype": "Dynamic Link",
+   "label": "Reference name",
+   "options": "reference_doctype",
+   "search_index": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "view_log_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "View Log OD"
+  },
+  {
+   "fieldname": "view_log_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "View Log HI"
+  }
+ ],
+ "links": [],
+ "modified": "2024-07-19 16:15:12.432206",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "View Log",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "updatefield": 1
+}

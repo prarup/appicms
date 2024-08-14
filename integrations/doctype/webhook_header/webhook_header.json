@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "creation": "2017-09-08 16:27:39.195379",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "key",
+  "value",
+  "webhook_header_od",
+  "webhook_header_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "key",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Key"
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Value"
+  },
+  {
+   "fieldname": "webhook_header_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Webhook Header OD"
+  },
+  {
+   "fieldname": "webhook_header_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Webhook Header HI"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 16:14:49.214173",
+ "modified_by": "Administrator",
+ "module": "Integrations",
+ "name": "Webhook Header",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "updatefield": 1
+}

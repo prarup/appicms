@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-05-19 21:24:05.865621",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "add_immunization",
+  "anganwadi_immunisation_od",
+  "anganwadi_immunisation_hi"
+ ],
+ "fields": [
+  {
+   "fieldname": "add_immunization",
+   "fieldtype": "Data",
+   "label": "Add Immunisation"
+  },
+  {
+   "fieldname": "anganwadi_immunisation_od",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Anganwadi immunisation OD"
+  },
+  {
+   "fieldname": "anganwadi_immunisation_hi",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Anganwadi immunisation HI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 16:13:48.927907",
+ "modified_by": "Administrator",
+ "module": "Core",
+ "name": "Anganwadi immunisation",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "add_immunization",
+ "updatefield": 1
+}
